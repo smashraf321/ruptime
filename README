@@ -1,0 +1,6 @@
+Please enter the IP address (or hostname) of servers (on which the server code, i.e ruptimeServer is running),
+1, 2, 3, 4, etc. how many ever you want on command line with client code(ruptimeClient).
+
+Also enter the IP address (or hostname) of server you're running the server code(ruptimeServer) on, on the command line itself 
+
+Screenshots will be in the tarball too.
