@@ -1,6 +1,20 @@
-Please enter the IP address (or hostname) of servers (on which the server code, i.e ruptimeServer is running),
-1, 2, 3, 4, etc. how many ever you want on command line with client code(ruptimeClient).
+This simple ruptime implementation runs on linux based computers.
 
-Also enter the IP address (or hostname) of server you're running the server code(ruptimeServer) on, on the command line itself 
+Run make after cloning this repository on computers you wish to behave as client and servers. This will generate the executables 
+for both server and client.
 
-Screenshots will be in the tarball too.
+Execute the server codes on the PCs you want to behave as servers first. Enter the IP address (or hostname) of computer you're 
+running the server code(ruptimeServer) on, on the command line itself. For example:
+
+On computer 1 (behaving as server):
+./ruptimeServer 191.191.191.191
+
+On computer 2 (also behaving as server):
+./ruptimeServer 192.192.192.192
+ 
+Now execute the client code on the PC you want to behave as a client. Please enter the IP address (or hostname) of servers 
+(on which the server code, i.e ruptimeServer is running) 1, 2, 3, 4, etc. how many ever you want (2 servers in example above)
+on command line with client code(ruptimeClient). For example:
+
+On client computer:
+./ruptimeClient 191.191.191.191 192.192.192.192
