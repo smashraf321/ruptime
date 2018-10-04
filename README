@@ -1,4 +1,6 @@
-This simple ruptime implementation runs on linux based computers.
+This simple ruptime implementation runs on linux based computers This code essentially pulls the uptime information from
+a one computer (acting as server) and displays it on another computer (client). uptime shows how long the system was up, 
+logged in users, etc. Its a short and sweet one line message.
 
 Run make after cloning this repository on computers you wish to behave as client and servers. This will generate the executables 
 for both server and client.
